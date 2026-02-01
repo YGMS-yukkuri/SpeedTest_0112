@@ -1,0 +1,35 @@
+/* nth-child */
+/* grid-rayout */
+
+body {
+    display: grid;
+    grid-template-columns: repeat(5 ,150px);
+    grid-template-rows: repeat(3, 150px);
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff
+}
+
+div:nth-child(2n) {
+    background-color: blue;
+}
+
+div:nth-child(3n) {
+    background-color: cadetblue;
+}
+
+div:nth-child(4n) {
+    background-color: coral;
+}
+
+div:nth-child(5n) {
+    background-color: rgb(42, 165, 69);
+}

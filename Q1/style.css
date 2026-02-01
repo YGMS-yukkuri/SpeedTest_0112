@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.405);
+}
+
+div {
+    background-color:#FFF;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px #000;
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.pro {
+    border: rgb(0, 119, 255) 2px solid;
+}
+
+button { /* hoverつける */
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
